@@ -21,7 +21,6 @@ html, body {
 .footer {
     flex-shrink: 0;
     text-align: center;
-    position: fixed;
     bottom: 0px;
     width: 100%;;
 }
@@ -32,4 +31,11 @@ html, body {
 
 .text-primary {
     color: var(--color-primary) !important;
+}
+
+.my-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
